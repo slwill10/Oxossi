@@ -3,6 +3,10 @@
 - Yarn
 - Prettier extension
 
+## pre-commit
+
+Antes de comittar, passe o prettier nos arquivos (Ctrl+P - Format Document)
+
 ### `yarn start`
 
 Runs the app in the development mode.\
