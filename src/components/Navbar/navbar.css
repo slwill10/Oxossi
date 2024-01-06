@@ -1,77 +1,74 @@
-.navbar-container { 
-    display: flex; 
-    background-color: #e6e6e6e6; 
-    height: 110px;
-    border-radius: 10px;
-    width: 100%;
-    position: absolute; 
-    left: 50%; 
-    transform: translateX(-50%);
-    top: 40px;
+.navbar-container {
+  display: flex;
+  background-color: #e6e6e6e6;
+  height: 110px;
+  border-radius: 10px;
+  width: 100%;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 40px;
 }
 
-.logo-container { 
-    display: inline-block;
-    margin-left: 300px;
-    font-family: 'Inter', sans-serif;
-    cursor: pointer;
-    margin-top: 32px;
+.logo-container {
+  display: inline-block;
+  margin-left: 300px;
+  font-family: "Inter", sans-serif;
+  cursor: pointer;
+  margin-top: 32px;
 }
 
 .nav-links {
-    cursor: pointer;
-    font-family: 'Inter', sans-serif; 
-
+  cursor: pointer;
+  font-family: "Inter", sans-serif;
 }
 .nav-services {
-    justify-content: center;
-    padding-top: 46px; 
-    cursor: pointer;
-    margin-left:350px;
-  }
-  
-  .nav-technology {
-    padding-top: 46px; 
-    cursor: pointer;
-    margin-left: 30px;
-  }
-  
-  .nav-about {
-    padding-top: 46px; 
-    cursor: pointer;
-    margin-left: 30px;
-  }
-  
-  .nav-blogs {
-    padding-top: 46px; 
-    cursor: pointer;
-    margin-left: 30px;
-  }
-
-.nav-links {
-    display: inline-flex;
-    justify-content: center;
-    cursor: pointer;
-    font-family: 'Inter', sans-serif; 
-
+  justify-content: center;
+  padding-top: 46px;
+  cursor: pointer;
+  margin-left: 350px;
 }
 
-.usa{
-    width: 27px;
-    height: 27px;  
-    margin-right: 10px;
-    
+.nav-technology {
+  padding-top: 46px;
+  cursor: pointer;
+  margin-left: 30px;
+}
+
+.nav-about {
+  padding-top: 46px;
+  cursor: pointer;
+  margin-left: 30px;
+}
+
+.nav-blogs {
+  padding-top: 46px;
+  cursor: pointer;
+  margin-left: 30px;
+}
+
+.nav-links {
+  display: inline-flex;
+  justify-content: center;
+  cursor: pointer;
+  font-family: "Inter", sans-serif;
+}
+
+.usa {
+  width: 27px;
+  height: 27px;
+  margin-right: 10px;
 }
 
 .linkedin {
-    width: 30px;
-    height: 30px;
-    margin-right: 3px;
+  width: 30px;
+  height: 30px;
+  margin-right: 3px;
 }
 
-.logodw{
-    width: 130px;
-    height: 60px;
-    margin-left: 30px;
-    margin-top: 30px;
+.logodw {
+  width: 130px;
+  height: 60px;
+  margin-left: 30px;
+  margin-top: 30px;
 }

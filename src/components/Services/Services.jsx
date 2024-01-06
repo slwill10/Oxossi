@@ -1,5 +1,5 @@
-import React from 'react';
-import './services.css'
+import React from "react";
+import "./services.css";
 
 function Services() {
   return (
