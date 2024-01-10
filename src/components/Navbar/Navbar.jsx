@@ -11,34 +11,47 @@ function Navbar() {
       section.scrollIntoView({ behavior: "smooth" });
     }
   };
+
   return (
     <nav>
       <div className="navbar-container">
         <img className="logodw" src={logodw} alt="Logodw" />
         <div className="nav-links">
           <div
-            className="nav-services"
+            className="nav-link nav-services"
             onClick={() => scrollToSection("services")}
           >
             Services
           </div>
           <div
-            className="nav-technology"
+            className="nav-link nav-technology"
             onClick={() => scrollToSection("Technology")}
           >
             Technology
           </div>
-          <div className="nav-about" onClick={() => scrollToSection("About")}>
+          <div
+            className="nav-link nav-about"
+            onClick={() => scrollToSection("About")}
+          >
             Who We Are
           </div>
-          <div className="nav-blogs" onClick={() => scrollToSection("blogs")}>
+          <div
+            className="nav-link nav-blogs"
+            onClick={() => scrollToSection("blogs")}
+          >
             Blogs
           </div>
         </div>
         <div className="logo-container">
           <img className="usa" src={logo} alt="Logo" />
           <img className="linkedin" src={linkedin} alt="Logo" />
-          <div onClick={() => scrollToSection("Contact")}>CONTACT US</div>
+          <div 
+            className="contact"
+            onClick={() => scrollToSection("Contact")}
+          >
+            <br></br>
+            CONTACT US
+          </div>
         </div>
       </div>
     </nav>
