@@ -6,20 +6,27 @@ function Journey() {
   return (
     <div>
       <header className="App-header">
-        <img src={geo} className="App-geometric" alt="geo" />
-        <p className="textheadertitle">
-          Eleve Seu Código, Impulsione <span>seu Negócio.</span>
-        </p>
-        <p className="textheader">
-          Sua visão, nossa experiência. Acelere o <br />
-          cronograma do seu projeto com nossos
-          <br />
-          engenheiros qualificados. Experimente a<br />
-          diferença em qualidade e eficiência.
-        </p>
-        <button className="button">
-          Comece sua jornada em direção à excelência tecnológica agora
-        </button>
+        <div className="Title">
+          <p className="TextHeaderTitle">
+            Eleve Seu Código, Impulsione <span> seu Negócio.</span>
+          </p>
+          <p className="TextJourney">
+            Sua visão, nossa experiência. Acelere o <br />
+            cronograma do seu projeto com nossos
+            <br />
+            engenheiros qualificados. Experimente a<br />
+            diferença em qualidade e eficiência.
+          </p>
+          <button className="button">
+            <p className="Text-buttom">
+            Comece sua jornada em direção à <br/>excelência tecnológica agora
+            </p>
+          </button>
+        </div>
+        <div>
+          <img src={geo} className="App-geometric" alt="geo"/>
+        </div>
+        
       </header>
     </div>
   );
