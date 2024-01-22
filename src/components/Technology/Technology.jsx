@@ -3,7 +3,7 @@ import "./Technology.css";
 
 function Technology() {
   return (
-    <div id="Technology">
+    <div className="Technology">
       <h1>Technology</h1>
     </div>
   );

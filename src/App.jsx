@@ -15,7 +15,7 @@ function App() {
     <div>  
       <Navbar></Navbar>
       <Journey></Journey> 
-       <Services></Services>
+      <Services></Services>
       <About></About>
       <Clients></Clients>
       <Contact></Contact>

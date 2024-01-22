@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import "../Navbar/Navbar.css";
-import logodw from "../../assets/imgs/dwcorp.png";
+import logodw from "../../assets/imgs/logod.png";
 import linkedin from "../../assets/imgs/linkedin.png";
 import usa from "../../assets/imgs/usa.png";
 
@@ -15,24 +15,29 @@ function Navbar() {
   const [active, setActive] = useState("nav__menu");
   const [icon, setIcon] = useState("nav__toggler");
   const [visible, setVisible] = useState(true);
-  const [prevScrollPos] = useState(0);
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
 
-  const handleScroll = () => {
-    const scrolled = window.scrollY;
-    setVisible(scrolled < 1); 
-  };
+  useEffect(() => {
+    const handleScroll = () => {
+      if (!isMenuOpen) {
+        const scrolled = window.scrollY;
+        setVisible(scrolled < 600);
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, [isMenuOpen]);
 
   const navToggle = () => {
     setActive(active === "nav__menu" ? "nav__menu nav__active" : "nav__menu");
     setIcon(icon === "nav__toggler" ? "nav__toggler toggle" : "nav__toggler");
+    setIsMenuOpen(!isMenuOpen);
   };
-
-  useEffect(() => {
-    window.addEventListener("scroll", handleScroll);
-    return () => {
-      window.removeEventListener("scroll", handleScroll);
-    };
-  }, [prevScrollPos]);
+  
   return (
     <nav className={`nav ${visible ? "fadeIn" : "fadeOut"}`}>
       <img className="logodw" src={logodw} alt="Logodw" />
@@ -65,5 +70,6 @@ function Navbar() {
     </nav>
   );
 }
+
 
 export default Navbar;

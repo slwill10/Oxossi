@@ -1,70 +1,54 @@
-.App-header {
-  background-color: #000000;
-  min-height: 100vh;
+.titulo {
+  color: white;
+}
+
+.lead {
+  color: white;
+}
+
+body,
+html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.container-fluid.mb-0 {
+  min-height: 120vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-  top: 20px;
-  font-size: calc(10px + 2vmin);
 }
 
-.App-geometric {
-  height: 10%;
-  max-width: 100%;
-  height: auto;
-  margin-top: 25%;
+.geo {
+  margin-left: 140%;
+  margin-top: -90%;
+  width: 50%;
 }
 
-.Title {
-  margin: 9%;
-  margin-right: 50%;
-  margin-top: 10%;
+.titulo {
+  margin-top: -40%;
+  font-size: 4em; 
+  font-family: 'Kanit', sans-serif;
 }
 
-.TextHeaderTitle {
-  font-family: "Kanit";
-  font-size: 3vw;
-}
-
-.TextJourney {
-  font-size: 2vw;
-  margin-top: 10%;
+.lead {
+  margin-top: 4%;
+  font-size: 2.5em; 
+  font-family: 'Kanit', sans-serif;
 }
 
 .button {
-  margin-right: -600%;
-  width: 100%;
-  margin-top: 10%;
-  position: relative;
-  top: 2vh;
-  border-radius: 10px;
-  height: 15vh;
-  font-family: "Inter";
-  color: #333333;
-  font-size: 2vw;
-  padding-left: 10px;
+  padding: 4%;
+  width: 120%;
+  margin-top: 20%;
+  border-radius: 3%;
 }
 
-.App-geometric {
-  margin-top: -350%;
-  width: 30vw;
-  height: auto;
-  margin-left: 70%;
-  max-width: 200px;
+.woman {
+  width: 80%;
+  margin-left: 200%;
+  margin-top: 30%;
 }
 
-@media screen and (max-width: 1210px) {
-  .App-geometric {
-    margin-top: -250%;
-  }
 
-}
-
-@media screen and (max-width: 768px) {
-  .App-geometric {
-    margin-top: -250%;
-  }
-}
+ 
