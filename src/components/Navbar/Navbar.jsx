@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import "../Navbar/Navbar.css";
+import "../Navbar/navbar.css";
 import logodw from "../../assets/imgs/logod.png";
 import linkedin from "../../assets/imgs/linkedin.png";
 import usa from "../../assets/imgs/usa.png";

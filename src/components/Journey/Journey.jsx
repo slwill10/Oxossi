@@ -10,7 +10,7 @@ function Journey() {
     <div className="d-flex bg-dark">
       <div class="container-fluid mb-0">
         <div className="px-3">
-          <div class="col-12 col-sm-5 col-md-4 col-lg-5 col-xl-4 col-xxl-4 woman-container ">
+          <div class="woman-container">
             <img className="woman" src={woman} alt="woman"/>
           </div>
           <div>
