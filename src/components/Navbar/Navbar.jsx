@@ -33,6 +33,7 @@ function Navbar() {
   }, [isMenuOpen]);
 
   const navToggle = () => {
+    console.log("aaaaa")
     setActive(active === "nav__menu" ? "nav__menu nav__active" : "nav__menu");
     setIcon(icon === "nav__toggler" ? "nav__toggler toggle" : "nav__toggler");
     setIsMenuOpen(!isMenuOpen);
