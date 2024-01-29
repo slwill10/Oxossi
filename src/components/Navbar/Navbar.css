@@ -1,0 +1,168 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+}
+
+li {
+  list-style: none;
+  color: black;
+}
+
+.fadeOut {
+  opacity: 0;
+}
+
+.fadeIn {
+  opacity: 1;
+}
+
+.nav__item,
+.contact {
+  font-size: 2rem;
+  font-family: inter, sans-serif;
+  margin-left: -30px;
+  cursor: pointer;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 15vh;
+  background: #e6e6e6e6;
+  margin-top: 20px;
+  margin-right: 20px;
+  margin-left: 20px;
+  border-radius: 20px;
+  position: fixed;
+  width: 95vw;
+  transition: opacity 0.5s ease-in-out;
+}
+
+
+.nav__menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 6rem;
+}
+
+.nav__toggler {
+  display: none;
+}
+
+.nav__toggler div {
+  width: 2.5rem;
+  height: 0.2rem;
+  margin: 0.4rem;
+  background: rgb(255, 255, 255);
+  transition: 0.3s ease-in;
+}
+
+.logo-container {
+  display: flex;
+  margin-left: auto;
+  margin-left: 30px;
+}
+
+.usa,
+.linkedin {
+  width: 30px;
+  height: 30px;
+  margin: 2px;
+}
+
+.usa {
+  margin-left: auto;
+  margin-left: 150px;
+}
+
+.contact {
+  margin-top: 35px;
+  margin-left: -100px;
+}
+
+.logodw {
+  width: 15%;
+  height: 100%;
+}
+
+
+@media screen and (max-width: 964px) {
+  .contact {
+    margin-top: 12%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+
+  .logodw {
+    height: 90%;
+    width: 20%;
+  } 
+  .nav__toggler {
+    display: block;
+    cursor: pointer;
+  }
+
+  .logo-container {
+    display: none;
+  }
+
+  .nav {
+    margin-top: none !important;
+    margin-right: none;
+    margin-left: none;
+    border-radius: none;
+  }
+
+  .nav__menu {
+    position: fixed;
+    top: 18%;
+    right: 0;
+    width: 50vw;
+    background-color: #d6d6d6c9;
+    flex-direction: column;
+    transform: translateX(100%);
+    transition: 0.5s ease-in;
+    margin-right: none;
+    height: 57%;
+  }
+}
+
+@media screen and (max-width: 521px) {
+  .logodw {
+    height: 100%;
+    width: 30%;
+  }
+}
+
+
+.nav__active {
+  transform: translateX(0%);
+}
+
+.toggle .line1 {
+  transform: rotate(-45deg) translate(-4px, 5px);
+  background-color: black;
+}
+
+.toggle .line2 {
+  opacity: 0;
+  background-color: black;
+}
+
+.toggle .line3 {
+  transform: rotate(45deg) translate(-4px, -5px);
+  background-color: black;
+}
