@@ -12,15 +12,15 @@ import {
 
 function App() {
   return (
-    <div>  
-      <Navbar></Navbar>  
-      <Journey></Journey> 
+    <div>
+      <Navbar></Navbar>
+      <Journey></Journey>
       <Services></Services>
       <About></About>
       <Clients></Clients>
       <Contact></Contact>
       <Technology></Technology>
-      <Footer></Footer>  
+      <Footer></Footer>
     </div>
   );
 }
