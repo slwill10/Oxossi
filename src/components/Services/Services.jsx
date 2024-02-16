@@ -7,7 +7,7 @@ function Services() {
   return (
     <div className="container-fluid p-0">
       <div className="row bg-light-gray text-dark text-center ">
-        <div className="col-9 col-sm-9 col-md-10 col-lg-10 col-xl-10 col-xxl-9">
+        <div className="col-9 col-sm-9 col-md-10 col-lg-10 col-xl-9 col-xxl-9">
           <h1 className="custom-heading my-4 display-4">WHO WE ARE?</h1>
         </div>
         <div className="col-12 col-sm-12 col-md-7 col-lg-7yar col-xl-5 col-xxl-4 mx-auto">

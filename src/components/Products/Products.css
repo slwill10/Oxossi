@@ -1,0 +1,91 @@
+.title-product {
+  font-size: 30px;
+  margin-left: 80px;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.line-product {
+  width: 200px;
+  height: 2px;
+  background-color: black;
+  margin-top: 10px;
+  margin-left: 39%;
+}
+
+.css-img {
+  margin-left: 60%;
+  width: 35%;
+  margin-top: -7%;
+}
+
+.html-img {
+  width: 50%;
+  margin-left: 30%;
+  margin-top: -7%;
+}
+
+.react-img {
+  width: 40%;
+  margin-left: 10%;
+}
+
+.csharp-img {
+  width: 40%;
+  margin-left: -10%;
+  margin-top: -2%;
+}
+
+.angular-img {
+  width: 45%;
+  margin-left: 55%;
+  margin-top: 10%;
+}
+
+.dotnet-img {
+  width: 35%;
+  margin-left: 37%;
+  margin-top: 15%;
+}
+
+.aws-img {
+  width: 40%;
+  margin-left: 10%;
+  margin-top: 20%;
+}
+
+.nodejs-img {
+  width: 40%;
+  margin-left: -10%;
+  margin-top: 19%;
+}
+
+.title-product {
+  margin-bottom: 50px;
+  margin-left: auto;
+}
+
+@media (min-width: 568px) {}
+
+@media (min-width: 768px) {}
+
+@media (min-width: 992px) {}
+
+@media (min-width: 1200px) {}
+
+@media (min-width: 1400px) {
+  .title-product {
+    font-size: 110px;
+    margin-top: 5%;
+  }
+
+  .line-product {
+    display: none;
+  }
+
+  .title-product {
+    margin-bottom: 200px;
+  }
+}

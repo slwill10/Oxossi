@@ -8,6 +8,7 @@ import {
   Footer,
   Technology,
   Journey,
+  Products
 } from "./components/";
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
       <Clients></Clients>
       <Contact></Contact>
       <Technology></Technology>
+      <Products></Products>
       <Footer></Footer>
     </div>
   );

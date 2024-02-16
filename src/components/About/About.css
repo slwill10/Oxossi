@@ -1,80 +1,20 @@
 .with-background {
-    background-image: url('../../assets/imgs/time2.png');
+    background-image: url('../../assets/imgs/meeting-img.png');
     background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-    width: 100%;
+    background-position: center;
+    height: 70vh;
 }
 
-.d-block {
-    width: 100px;
-    height: auto;
+.willianlima {
+margin-left: 20%;
 }
+ 
+@media (min-width: 568px) {}
 
-.carousel-inner {
-    height: 270px;
-    background-color: #D9D9D9;
-    width: 20%;
-    margin-top: 10%;
-    margin-left: 150%;
-}
+@media (min-width: 768px) {}
 
-.name {
-    margin-left: 28%;
-    margin-top: -20%;
-}
+@media (min-width: 992px) {}
 
-.company {
-    font-size: 12px;
-    margin-left: 29%;
-    margin-top: -2%;
-}
+@media (min-width: 1200px) {}
 
-.description {
-    font-size: 12px;
-    margin-left: 5%;
-    margin-top: 20%;
-}
-
-@media (min-width: 1200px) {
-    .with-background {
-        height: 500px;
-    }
-
-    .carousel-inner {
-        height: 420px;
-    }
-
-    .carousel-control-next {
-        margin-top: 20%;
-    }
-
-    .carousel-control-prev {
-        margin-top: 20%;
-    }
-
-    .name {
-        font-size: 300%;
-        margin-top: -18%;
-    }
-
-    .company {
-        font-size: 150%;
-        margin-top: 1%;
-        margin-left: 28%;
-    }
-
-    .description {
-        font-size: 200%;
-        margin-top: 13%;
-    }
-}
-
-@media (min-width: 1700px) {
-    .description {
-        font-size: 210%;
-        margin-top: 12%;
-    }
-
-
-}
+@media (min-width: 1400px) {}
