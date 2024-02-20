@@ -260,7 +260,10 @@
 
   .btn-dark {
     margin-left: 48vh !important;
-    margin-top: 1%;
+    margin-top: 3%;
+    width: 30%;
+    height: 12%;
+    font-size: 200%;
   }
 
   .input-container textarea {
@@ -275,8 +278,7 @@
     margin-top: -4% !important;
   }
 
-  .input-container input[type="text"],
-  .input-container input[type="email"] {
+  .input-container input[type="text"]{
     margin-top: 5% !important;
   }
 }

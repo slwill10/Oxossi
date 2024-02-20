@@ -31,15 +31,15 @@ function Journey() {
             </div>
               <div className="col-12 col-sm-12 col-md-12 col-lg-5 col-xl-4 col-xxl-4">
                 <button className="button">
-                  <h1>Comece sua jornada em direção à excelência tecnológica agora</h1>
+                  <h1>Start your journey towards technological excellence now</h1>
                 </button>
               </div>
               <div className="col-10 col-sm-7 col-md-12 col-lg-3 col-xl-1 col-xxl-12">
-                <h1 className="titulo"> Eleve Seu Código, Impulsione <span>seu Negócio.</span></h1>
+                <h1 className="titulo"> Elevate Your Code, Boost <span>your Business.</span></h1>
               </div>
               <div className="col-9 col-sm-7 col-md-12 col-lg-6 col-xl-3 col-xxl-4">
-                <p className="lead"> Sua visão, nossa experiência. Acelere o cronograma do seu projeto com nossos
-                  engenheiros qualificados. Experimente a diferença em qualidade e eficiência.</p>
+                <p className="lead"> Your vision, our experience. Accelerate your project timeline with our
+                  qualified engineers. Experience the difference in quality and efficiency.</p>
               </div>
             </>
           ) : (
@@ -48,15 +48,15 @@ function Journey() {
                 <img className="woman" src={woman} alt="woman" />
               </div>
               <div className="col-10 col-sm-7 col-md-8 col-lg-3 col-xl-1 col-xxl-12">
-                <h1 className="titulo"> Eleve Seu Código, Impulsione <span>seu Negócio.</span></h1>
+                <h1 className="titulo"> Elevate Your Code, Boost <span>your Business.</span></h1>
               </div>
               <div className="col-9 col-sm-7 col-md-7 col-lg-2 col-xl-3 col-xxl-4">
-                <p className="lead"> Sua visão, nossa experiência. Acelere o cronograma do seu projeto com nossos
-                  engenheiros qualificados. Experimente a diferença em qualidade e eficiência.</p>
+                <p className="lead"> Your vision, our experience. Accelerate your project timeline with our
+                  qualified engineers. Experience the difference in quality and efficiency.</p>
               </div>
               <div className="col-1 col-sm-12 col-md-1 col-lg-5 col-xl-4 col-xxl-4">
                 <button className="button">
-                  <h1>Comece sua jornada em direção à excelência tecnológica agora</h1>
+                  <h1>Start your journey towards technological excellence now</h1>
                 </button>
               </div>
             </>

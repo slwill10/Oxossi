@@ -13,7 +13,6 @@ function Contact() {
       <div className="row bg-light-white text-dark text-center">
         <div className="col-10 col-sm-10 col-md-10 col-lg-10 col-xl-10 col-xxl-8">
           <h1 className="custom my-4 display-4">OUR CLIENTS</h1>
-          <div className="line"></div>
         </div>
       </div>
       <div className="row">

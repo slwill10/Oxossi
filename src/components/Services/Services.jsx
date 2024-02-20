@@ -11,11 +11,11 @@ function Services() {
           <h1 className="custom-heading my-4 display-4">WHO WE ARE?</h1>
         </div>
         <div className="col-12 col-sm-12 col-md-7 col-lg-7yar col-xl-5 col-xxl-4 mx-auto">
-          <p className="custom-font-size fs-1">DWCorp é uma empresa dedicada a fornecer soluções de tecnologia (TI) 
-            com uma equipe de desenvolvedores altamente qualificados.
-            Fundada com o compromisso de impulsionar a inovação e a excelência em serviços voltados à tecnologia. 
-            A DWCorp se destaca por oferecer soluções tecnológicas sob medida
-            para atender às necessidades específicas de seus clientes.</p>
+          <p className="custom-font-size fs-1">DWCorp is a company dedicated to providing technology (IT) solutions
+            with a team of highly qualified developers.
+            Founded with a commitment to driving innovation and excellence in technology-driven services.
+            DWCorp stands out for offering tailored technological solutions
+            to meet the specific needs of its customers.</p>
         </div>
         <div className="col-12 col-sm-12 col-md-5 col-lg-5 col-xl-5 col-xxl-5 ">
           <img className="reunião" src={reunião} alt="reuniao" />

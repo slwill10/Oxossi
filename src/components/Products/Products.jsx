@@ -11,9 +11,9 @@ import nodejs from "../../assets/imgs/nodejs-img.png";
 
 function Products() {
   return (
-    <div className="container-fluid">
+    <div className="container-fluid" style={{paddingBottom: '10vh'}}>
       <div className="row">
-        <div className="col-12 col-sm-12 col-md-12 col-lg-10 col-xl-10 col-xxl-11">
+        <div className="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
           <div className="title-product">
             <div>The tech stack behind competitive products</div>
           </div>

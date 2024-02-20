@@ -35,7 +35,6 @@
   width: 100%;
 }
 
-
 .hiro-img {
   height: 18%;
   margin-top: 80%;
@@ -59,7 +58,6 @@
   font-family: 'Judson', sans-serif;
   margin-left: 20%;
 }
-
 
 @media (min-width: 568px) {
 
@@ -186,6 +184,8 @@
 
   .compuletra-img {
     margin-top: 30%;
+    width: 60%;
+    margin-left: 20%;
   }
 
   .consult-img {
@@ -194,7 +194,6 @@
 
   .hiro-img {
     margin-top: 30%;
-
   }
 
   .jone-img {
