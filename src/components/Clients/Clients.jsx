@@ -3,7 +3,7 @@ import "./Clients.css";
 
 function Clients() {
   return (
-    <div id="Clients">
+    <div className="Clients">
       <h1>Clients</h1>
     </div>
   );
