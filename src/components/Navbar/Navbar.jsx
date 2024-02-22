@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import "../Navbar/Navbar.css";
+import "../Navbar/navbar.css";
 import logodw from "../../assets/imgs/logod.png";
 import linkedin from "../../assets/imgs/linkedin.png";
 import usa from "../../assets/imgs/usa.png";
@@ -33,6 +33,7 @@ function Navbar() {
   }, [isMenuOpen]);
 
   const navToggle = () => {
+    console.log("aaaaa")
     setActive(active === "nav__menu" ? "nav__menu nav__active" : "nav__menu");
     setIcon(icon === "nav__toggler" ? "nav__toggler toggle" : "nav__toggler");
     setIsMenuOpen(!isMenuOpen);
