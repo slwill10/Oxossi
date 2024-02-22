@@ -1,4 +1,209 @@
-.Contact {
-    background-color: pink;
-    margin: 10%;
-}
+.line {
+    border-bottom: 1px solid black;
+    margin-left: 50%;
+    margin-right: auto;
+    width: 20%;
+    margin-top: -15px;
+  }
+  
+  .bigger {
+    width: 100px;
+    height: 190px;
+    background-color: #ccc;
+    margin: 40px;
+    border-radius: 10%;
+    margin-left: 10%;
+  }
+  
+  .gama-img {
+    height: 35%;
+    margin-top: 55%;
+    margin-left: 10%;
+  }
+  
+  .compuletra-img {
+    height: 18%;
+    margin-top: 80%;
+    margin-left: 1%;
+    width: 100%;
+  }
+  
+  .consult-img {
+    height: 13%;
+    margin-top: 80%;
+    margin-left: 1%;
+    width: 100%;
+  }
+  
+  
+  .hiro-img {
+    height: 18%;
+    margin-top: 80%;
+    margin-left: 1%;
+    width: 100%;
+  }
+  
+  .jone-img {
+    height: 35%;
+    margin-top: 60%;
+    margin-left: 12%;
+  }
+  
+  .pigma-img {
+    height: 35%;
+    margin-top: 58%;
+    margin-left: 20%;
+  }
+  
+  .custom {
+    font-family: 'Judson', sans-serif;
+    margin-left: 20%;
+  }
+  
+  
+  @media (min-width: 568px) {
+  
+    .gama-img {
+      margin-top: 31%;
+      margin-left: 30%;
+    }
+  
+    .compuletra-img {
+      margin-top: 43%;
+      margin-left: 5%;
+      width: 90%;
+    }
+  
+    .consult-img {
+      margin-top: 45%;
+      margin-left: 5%;
+      width: 90%;
+    }
+  
+    .hiro-img {
+      margin-top: 43%;
+      margin-left: 1%;
+    }
+  
+    .jone-img {
+      margin-top: 33%;
+      margin-left: 29%;
+    }
+  
+    .pigma-img {
+      margin-top: 32%;
+      margin-left: 33%;
+    }
+  
+    .bigger {
+      width: 90%;
+      margin-left: 2%;
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .gama-img {
+      margin-top: 17%;
+      margin-left: 27%;
+      width: 50%;
+      height: 50%;
+    }
+  
+    .compuletra-img {
+      margin-top: 30%;
+    }
+  
+    .consult-img {
+      margin-top: 30%;
+      width: 80%;
+      margin-left: 11%;
+    }
+  
+    .hiro-img {
+      margin-top: 30%;
+    }
+  
+    .jone-img {
+      margin-top: 22%;
+      margin-left: 36%;
+    }
+  
+    .pigma-img {
+      margin-top: 15%;
+      margin-left: 27%;
+      width: 50%;
+      height: 50%;
+    }
+  }
+  
+  @media (min-width: 992px) {
+    .gama-img {
+      margin-left: 25%;
+      margin-top: 35%;
+    }
+  
+    .compuletra-img {
+      margin-top: 50%;
+    }
+  
+    .consult-img {
+      margin-top: 52%;
+    }
+  
+    .hiro-img {
+      margin-top: 50%;
+    }
+  
+    .jone-img {
+      margin-top: 38%;
+      margin-left: 25%;
+    }
+  
+    .pigma-img {
+      margin-top: 37%;
+      margin-left: 28%;
+    }
+  
+    .bigger {
+      width: 70%;
+      margin-left: 15%;
+      height: 80%;
+    }
+  }
+  
+  @media (min-width: 1400px) {
+    .line {
+      margin-left: 62%;
+    }
+  
+    .custom {
+      margin-left: 44%;
+    }
+  
+    .gama-img {
+      margin-top: 17%;
+    }
+  
+    .compuletra-img {
+      margin-top: 30%;
+    }
+  
+    .consult-img {
+      margin-top: 30%;
+    }
+  
+    .hiro-img {
+      margin-top: 30%;
+  
+    }
+  
+    .jone-img {
+      margin-top: 25%;
+      margin-left: 35%;
+    }
+  
+    .pigma-img {
+     margin-top: 20%;
+     margin-left: 26%;
+    }
+  }

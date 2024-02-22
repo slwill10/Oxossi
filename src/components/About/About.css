@@ -1,4 +1,10 @@
-.About {
-    background-color: yellow;
-    margin: 10%;
+.with-background {
+    background-image: url('../../assets/imgs/meeting-img.png');
+    background-size: cover;
+    background-position: center;
+    height: 70vh;
+}
+
+.willianlima {
+margin-left: 20%;
 }
