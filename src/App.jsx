@@ -13,7 +13,7 @@ import {
 function App() {
   return (
     <div>  
-      <Navbar></Navbar>
+      <Navbar></Navbar>  
       <Journey></Journey> 
       <Services></Services>
       <About></About>
