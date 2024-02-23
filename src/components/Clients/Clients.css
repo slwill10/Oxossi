@@ -1,314 +1,211 @@
-.first-row {
-    background-color: #d6d4d4;
+.line {
+  border-bottom: 1px solid black;
+  margin-left: 50%;
+  margin-right: auto;
+  width: 20%;
+  margin-top: -15px;
 }
 
-.square-container {
-    display: flex;
-    justify-content: space-between;
+.bigger {
+  width: 100px;
+  height: 190px;
+  background-color: #ccc;
+  margin: 40px;
+  border-radius: 10%;
+  margin-left: 10%;
 }
 
-.small-square {
-    width: 50px;
-    height: 50px;
-    background-color: #ccc;
-    margin: 5px;
-    font-size: 90%;
-    margin-left: 38%;
+.gama-img {
+  height: 35%;
+  margin-top: 55%;
+  margin-left: 10%;
 }
 
-.bigger-square {
-    width: 120px;
-    height: 190px;
-    background-color: #ccc;
-    margin: 40px;
-    border-radius: 10%;
+.compuletra-img {
+  height: 18%;
+  margin-top: 80%;
+  margin-left: 1%;
+  width: 100%;
 }
 
-.title-firstSquare {
-    font-size: 130%;
-    margin-top: 13%;
-    font-family: 'Inter', sans-serif;
+.consult-img {
+  height: 13%;
+  margin-top: 80%;
+  margin-left: 1%;
+  width: 100%;
 }
 
-.title-firstSquaretwo {
-    font-size: 130%;
-    margin-top: 4%;
-    font-family: 'Inter', sans-serif;
+
+.hiro-img {
+  height: 18%;
+  margin-top: 80%;
+  margin-left: 1%;
+  width: 100%;
 }
 
-.title-thirdSquare {
-    font-size: 130%;
-    margin-top: 4%;
-    font-family: 'Inter', sans-serif;
+.jone-img {
+  height: 35%;
+  margin-top: 60%;
+  margin-left: 12%;
 }
 
-.phrase {
-    font-size: 90%;
-    font-family: 'Inter', sans-serif;
+.pigma-img {
+  height: 35%;
+  margin-top: 58%;
+  margin-left: 20%;
 }
 
-.phrase2 {
-    font-size: 85%;
-    font-family: 'Inter', sans-serif;
+.custom {
+  font-family: 'Judson', sans-serif;
+  margin-left: 20%;
 }
 
-.phrase3 {
-    font-size: 85%;
-    font-family: 'Inter', sans-serif;
-}
-
-.mobile-image {
-    width: 30%;
-    height: 20%;
-    object-fit: cover;
-    margin-top: 10%;
-}
-
-.software-image {
-    width: 60%;
-    height: 30%;
-    object-fit: cover;
-    margin-top: 3%;
-    margin-left: 10%;
-}
-
-.website-image {
-    width: 40%;
-    height: 30%;
-    object-fit: cover;
-    margin-top: 5%;
-    margin-left: 5%;
-}
-
-.small-square {
-    margin-left: 4%;
-}
-
-.custom-heading {
-    margin-left: 35%;
-}
 
 @media (min-width: 568px) {
 
-    .small-square {
-        margin-left: -20%;
-    }
+  .gama-img {
+    margin-top: 31%;
+    margin-left: 30%;
+  }
 
-    .bigger-square {
-        width: 160px;
-        height: 250px;
-    }
+  .compuletra-img {
+    margin-top: 43%;
+    margin-left: 5%;
+    width: 90%;
+  }
 
-    .title-firstSquare {
-        font-size: 150%;
-        margin-top: 7%;
-    }
+  .consult-img {
+    margin-top: 45%;
+    margin-left: 5%;
+    width: 90%;
+  }
 
-    .title-thirdSquare {
-        font-size: 160%;
-        margin-top: 1%;
-    }
+  .hiro-img {
+    margin-top: 43%;
+    margin-left: 1%;
+  }
 
-    .phrase {
-        font-size: 110%;
-    }
+  .jone-img {
+    margin-top: 33%;
+    margin-left: 29%;
+  }
 
-    .phrase2 {
-        font-size: 110%;
-    }
+  .pigma-img {
+    margin-top: 32%;
+    margin-left: 33%;
+  }
 
-    .phrase3 {
-        font-size: 110%;
-        margin-top: 3%;
-    }
-
-    .mobile-image {
-        width: 33%;
-        height: 20%;
-        margin-top: 10%;
-    }
-
-    .software-image {
-        width: 53%;
-        height: 20%;
-        margin-top: 10%;
-    }
-
-    .website-image {
-        width: 43%;
-        height: 30%;
-        margin-top: 2%;
-    }
-
-    .first-column {
-        margin-left: 8%;
-    }
-
-    .title-firstSquaretwo {
-        font-size: 140%;
-        margin-top: 8%;
-    }
-
-    .custom-heading {
-        margin-left: 30%;
-    }
+  .bigger {
+    width: 90%;
+    margin-left: 2%;
+  }
 }
 
 @media (min-width: 768px) {
-    .bigger-square {
-        width: 200px;
-        height: 350px;
-        margin: 6px;
-    }
+  .gama-img {
+    margin-top: 17%;
+    margin-left: 27%;
+    width: 50%;
+    height: 50%;
+  }
 
-    .title-firstSquare {
-        font-size: 200%;
-    }
+  .compuletra-img {
+    margin-top: 30%;
+  }
 
-    .title-thirdSquare {
-        font-size: 200%;
-        margin-top: 2%;
-    }
+  .consult-img {
+    margin-top: 30%;
+    width: 80%;
+    margin-left: 11%;
+  }
 
-    .phrase {
-        font-size: 170%;
-    }
+  .hiro-img {
+    margin-top: 30%;
+  }
 
-    .phrase2 {
-        font-size: 170%;
-    }
+  .jone-img {
+    margin-top: 22%;
+    margin-left: 36%;
+  }
 
-    .phrase3 {
-        font-size: 170%;
-        margin-top: 3%;
-    }
-
-    .mobile-image {
-        width: 33%;
-        height: 20%;
-        margin-top: 10%;
-    }
-
-    .software-image {
-        width: 53%;
-        height: 20%;
-        margin-top: 10%;
-    }
-
-    .website-image {
-        width: 43%;
-        height: 30%;
-        margin-top: 2%;
-    }
-
-    .title-firstSquaretwo {
-        font-size: 210%;
-        margin-top: 8%;
-    }
-
-    .first-column {
-        margin-left: 7%;
-    }
-
+  .pigma-img {
+    margin-top: 15%;
+    margin-left: 27%;
+    width: 50%;
+    height: 50%;
+  }
 }
 
 @media (min-width: 992px) {
-    .bigger-square {
-        width: 230px;
-        height: 370px;
-        margin: 107px;
-    }
+  .gama-img {
+    margin-left: 25%;
+    margin-top: 35%;
+  }
 
-    .title-thirdSquare {
-        font-size: 210%;
-        margin-top: 2%;
-    }
+  .compuletra-img {
+    margin-top: 50%;
+  }
 
-    .title-firstSquaretwo {
-        font-size: 210%;
-        margin-top: 2%;
-    }
+  .consult-img {
+    margin-top: 52%;
+  }
 
-    .first-column {
-        margin-left: 5%;
-    }
-}
+  .hiro-img {
+    margin-top: 50%;
+  }
 
-@media (min-width: 1200px) {
+  .jone-img {
+    margin-top: 38%;
+    margin-left: 25%;
+  }
 
-    .first-column {
-        margin-left: 10%;
-    }
+  .pigma-img {
+    margin-top: 37%;
+    margin-left: 28%;
+  }
 
+  .bigger {
+    width: 70%;
+    margin-left: 15%;
+    height: 80%;
+  }
 }
 
 @media (min-width: 1400px) {
-    .bigger-square {
-        width: 370px;
-        height: 370px;
-        margin-left: 30%;
-    }
+  .line {
+    margin-left: 62%;
+  }
 
-    .first-column {
-        margin-left: 5%;
-    }
+  .custom {
+    margin-left: 44%;
+  }
 
-    .software-image {
-        margin-top: 8%;
-        margin-left: 5%;
-    }
+  .gama-img {
+    margin-top: 17%;
+  }
 
-    .custom-heading {
-        margin-left: 37%;
-    }
+  .compuletra-img {
+    margin-top: 30%;
+    width: 60%;
+    margin-left: 20%;
+  }
 
-    .second-column {
-        margin-left: 5%;
-    }
+  .consult-img {
+    margin-top: 30%;
+  }
 
-    .mobile-image {
-        width: 30%;
-        height: 30%;
-    }
+  .hiro-img {
+    margin-top: 30%;
 
-    .phrase {
-        font-size: 190%;
-        margin-top: 7%;
-    }
+  }
 
-    .title-firstSquare {
-        margin-top: 3%;
-    }
+  .jone-img {
+    margin-top: 25%;
+    margin-left: 35%;
+  }
 
-    .software-image {
-        width: 35%;
-        height: 40%;
-        margin-top: 3%;
-    }
-
-    .title-firstSquaretwo {
-        margin-top: -2%;
-        font-size: 220%;
-    }
-
-    .phrase2 {
-        margin-top: 10%;
-        font-size: 190%;
-    }
-
-    .website-image {
-        width: 35%;
-        height: 40%;
-        margin-top: 5%;
-    }
-
-    .title-thirdSquare {
-        margin-top: -2%;
-    }
-
-    .phrase3 {
-        margin-top: 5%;
-        font-size: 190%;
-    }
-
+  .pigma-img {
+    margin-top: 20%;
+    margin-left: 26%;
+  }
 }

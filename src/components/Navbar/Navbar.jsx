@@ -42,7 +42,7 @@ function Navbar() {
     <nav className={`nav ${visible ? "fadeIn" : "fadeOut"}`}>
       <img className="logodw" src={logodw} alt="Logodw" />
       <ul className={active}>
-        <li className="nav__item nav__link" onClick={() => scrollToSection("services")}>
+        <li className="nav__item nav__link" onClick={() => scrollToSection("Services")}>
           Services
         </li>
         <li className="nav__item nav__link" onClick={() => scrollToSection("Technology")}>

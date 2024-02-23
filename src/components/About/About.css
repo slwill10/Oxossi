@@ -1,10 +1,48 @@
 .with-background {
-    background-image: url('../../assets/imgs/meeting-img.png');
-    background-size: cover;
-    background-position: center;
-    height: 70vh;
+  background-image: url('../../assets/imgs/meeting-img.png');
+  background-size: cover;
+  background-position: center;
+  height: 70vh;
 }
 
-.willianlima {
-margin-left: 20%;
+.carousel-item.active {
+  margin-top: 10%;
+}
+
+.arrow-button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 24px;
+  padding: 10px;
+  margin: 0 10px;
+  position: relative;
+}
+
+.arrow-button::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  width: 0;
+  height: 0;
+  border-style: solid;
+}
+
+.arrow-button::after {
+  border-width: 20px 0 20px 24px;
+  border-color: transparent transparent transparent #000;
+  right: -10px;
+}
+
+.prev-button::after {
+  border-width: 20px 24px 20px 0;
+  border-color: transparent #000 transparent transparent;
+  right: 1px;
+}
+
+@media screen and (max-width: 578px) {
+  .arrow-button {
+    color: #fff;
+    /* Alterando a cor do texto para branco */
+  }
 }
