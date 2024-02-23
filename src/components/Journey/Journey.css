@@ -6,18 +6,6 @@
   color: white;
 }
 
-/* body,
-html {
-  height: 100%;
-  margin: 0;
-  padding: 0;
-}  */
-
-.container-fluid.mb-0 {
-  display: flex;
-  flex-direction: column;
-}
-
 .titulo {
   margin-top: -40%;
   font-size: 4em;
@@ -35,6 +23,35 @@ html {
   width: 120%;
   margin-top: 20%;
   border-radius: 3%;
+}
+
+.woman {
+  margin-top: 50%;
+}
+
+@media screen and (max-width: 575px) {
+
+  .d-flex.bg-dark {
+    height: 1090px;
+  }
+
+  .titulo {
+    margin-top: 20%;
+  }
+
+  .lead {
+    margin-top: 10%;
+  }
+
+  .button {
+    margin-top: -1%;
+    width: 100%;
+  }
+  .woman {
+    margin-left: 80%;
+    width: 60%;
+    margin-top: 90%;
+  }
 }
 
 @media screen and (min-width: 576px) {
@@ -69,16 +86,16 @@ html {
   @media screen and (min-width: 768px) {
     .woman {
       margin-left: 220%;
-      margin-top: 64%;
+      margin-top: 57%;
     }
 
     .d-flex.bg-dark {
-      width: 900px;
+      width: 1000px;
       height: 600px;
     }
 
     .titulo {
-      margin-top: -80%;
+      margin-top: -70%;
       font-size: 4em;
       margin-left: 6%;
     }
@@ -104,13 +121,20 @@ html {
   }
 
   @media screen and (min-width: 992px) {
+
+    .d-flex.bg-dark {
+      width: 1200px;
+      height: 700px;
+    }
+
     .woman {
-      margin-left: 110%;
-      margin-top: 25%;
+      margin-left: 180%;
+      margin-top:45%;
+      width: 55%;
     }
 
     .titulo {
-      margin-top: -200%;
+      margin-top: -180%;
       font-size: 5em;
       width: 250%;
     }
@@ -121,11 +145,75 @@ html {
       margin-top: 30%;
     }
 
-    .button { }
-
-    .geo {
-      margin-left: 130%;
-      margin-top: -230%;
+    .button {
+      margin-top: 10%;
+      width: 150%;
+      margin-left: 1%;
     }
   }
+
+  @media screen and (min-width: 1200px) {
+    .d-flex.bg-dark {
+      width: 2000px;
+      height: 900px;
+    }
+
+    .woman {
+      margin-left: 135%;
+      margin-top: 38%;
+    }
+
+    .titulo {
+      margin-top: -450%;
+      font-size: 5em;
+      margin-left: 30%;
+      width: 400%;
+    }
+
+    .lead {
+      font-size: 3em;
+      width: 95%;
+      margin-top: 7%;
+      margin-left: 9%;
+    }
+
+    .button {
+      margin-top: 15%;
+      width: 120%;
+      margin-left: 6%; 
+    }
+  }
+  @media screen and (min-width: 1400px) {
+    .d-flex.bg-dark {
+      width: 2000px;
+      height: 900px;
+    }
+
+    .woman {
+      margin-left: 175%;
+      margin-top: 38%;
+    }
+
+    .titulo {
+      margin-top: -30%;
+      font-size: 5em;
+      margin-left: 2%;
+      width: 400%;
+    }
+
+    .lead {
+      font-size: 3em;
+      width: 95%;
+      margin-top: 7%;
+      margin-left: 9%;
+    }
+
+    .button {
+      margin-top: 15%;
+      width: 120%;
+      margin-left: 6%;
+      
+    }
+  }
+  
 }

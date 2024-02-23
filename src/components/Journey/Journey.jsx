@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import "./Journey.css";
-import geo from "../../assets/imgs/geometric.png";
 import woman from "../../assets/imgs/woman.png";
 
 function Journey() {
@@ -30,7 +29,7 @@ function Journey() {
             <div className="col-6 col-sm-4 col-md-4 col-lg-5 col-xl-4 col-xxl-4">
               <img className="woman" src={woman} alt="woman" />
             </div>
-              <div className="col-1 col-sm-12 col-md-12 col-lg-5 col-xl-4 col-xxl-4">
+              <div className="col-12 col-sm-12 col-md-12 col-lg-5 col-xl-4 col-xxl-4">
                 <button className="button">
                   <h1>Comece sua jornada em direção à excelência tecnológica agora</h1>
                 </button>
@@ -42,13 +41,10 @@ function Journey() {
                 <p className="lead"> Sua visão, nossa experiência. Acelere o cronograma do seu projeto com nossos
                   engenheiros qualificados. Experimente a diferença em qualidade e eficiência.</p>
               </div>
-              <div className="col-6 col-sm-6 col-md-4 col-lg-5 col-xl-4 col-xxl-4">
-                <img className="geo" src={geo} alt="IMGEFEITO" />
-              </div>
             </>
           ) : (
             <>
-            <div className="col-6 col-sm-4 col-md-4 col-lg-5 col-xl-4 col-xxl-4">
+            <div className="col-6 col-sm- col-md-4 col-lg-5 col-xl-4 col-xxl-4">
                 <img className="woman" src={woman} alt="woman" />
               </div>
               <div className="col-10 col-sm-7 col-md-8 col-lg-3 col-xl-1 col-xxl-12">
