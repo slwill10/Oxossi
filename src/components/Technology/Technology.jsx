@@ -1,41 +1,24 @@
+import 'bootstrap/dist/css/bootstrap.min.css';
 import React from "react";
 import "./Technology.css";
+import reunião from '../../assets/imgs/reunião3.jpg';
 
 function Technology() {
   return (
-    <div>
-      <div className="container-fluid1">
-        <div className="row">
-          <div>
-            <div className="graySquare">
-              <h1 className="pageTitle">CONTACT US</h1>
-              <div className="line-contact"></div>
-            </div>
-          </div>
+    <div className="container-fluid p-0" id='Technology'>
+      <div className="row bg-light-gray text-dark text-center ">
+        <div className="col-11 col-sm-11 col-md-12 col-lg-11 col-xl-11 col-xxl-11">
+          <h1 className="custom-heading my-4 display-4">WHO WE ARE?</h1>
         </div>
-        <div className="blueSquare"></div>
-        <div className="redSquare">
-          <div className="container">
-            <form>
-              <div className="row">
-                <div className="col">
-                  <div className="input-container">
-                    <input type="text" className="form-control forms1" placeholder="Enter name" name="name"></input>
-                    <div className="line-one"></div>
-                  </div>
-                  <div className="input-container">
-                    <input type="email" className="form-control forms 2" placeholder="Enter email" name="email"></input>
-                    <div className="line-two"></div>
-                  </div>
-                  <div className="input-container">
-                    <textarea className="form-control" placeholder="Insira sua mensagem" name="text"></textarea>
-                    <div className="line-three"></div>
-                  </div>
-                  <button type="button" className="btn btn-dark">Enviar</button>
-                </div>
-              </div>
-            </form>
-          </div>
+        <div className="col-12 col-sm-12 col-md-7 col-lg-7yar col-xl-5 col-xxl-4 mx-auto">
+          <p className="custom-font-size fs-1">DWCorpis a company dedicated to providing technology (IT) solutions
+            with a team of highly qualified developers.
+            Founded with a commitment to driving innovation and excellence in technology-driven services.
+            DWCorp stands out for offering tailored technological solutions
+            to meet the specific needs of its customers.</p>
+        </div>
+        <div className="col-12 col-sm-12 col-md-5 col-lg-5 col-xl-5 col-xxl-5 ">
+          <img className="reunião" src={reunião} alt="reuniao" />
         </div>
       </div>
     </div>

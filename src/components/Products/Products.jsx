@@ -1,75 +1,56 @@
-import React, { useState, useEffect } from "react";
-import "../Navbar/Navbar.css";
-import logodw from "../../assets/imgs/logod.png";
-import linkedin from "../../assets/imgs/linkedin.png";
-import usa from "../../assets/imgs/usa.png";
+import React from "react";
+import "../Products/Products.css";
+import css from "../../assets/imgs/css-img.png";
+import csharp from "../../assets/imgs/csharp-img.png";
+import html from "../../assets/imgs/html-img.png";
+import react from "../../assets/imgs/react-img.png";
+import angular from "../../assets/imgs/angular-img.png";
+import dotnet from "../../assets/imgs/dotnet-img.png";
+import aws from "../../assets/imgs/aws-img.png";
+import nodejs from "../../assets/imgs/nodejs-img.png";
 
-function Navbar() {
-  const scrollToSection = (sectionId) => {
-    const section = document.getElementById(sectionId);
-    if (section) {
-      section.scrollIntoView({ behavior: "smooth" });
-    }
-  };
-
-  const [active, setActive] = useState("nav__menu");
-  const [icon, setIcon] = useState("nav__toggler");
-  const [visible, setVisible] = useState(true);
-  const [isMenuOpen, setIsMenuOpen] = useState(false);
-
-  useEffect(() => {
-    const handleScroll = () => {
-      if (!isMenuOpen) {
-        const scrolled = window.scrollY;
-        setVisible(scrolled < 600);
-      }
-    };
-
-    window.addEventListener("scroll", handleScroll);
-
-    return () => {
-      window.removeEventListener("scroll", handleScroll);
-    };
-  }, [isMenuOpen]);
-
-  const navToggle = () => {
-    setActive(active === "nav__menu" ? "nav__menu nav__active" : "nav__menu");
-    setIcon(icon === "nav__toggler" ? "nav__toggler toggle" : "nav__toggler");
-    setIsMenuOpen(!isMenuOpen);
-  };
-  
+function Products() {
   return (
-    <nav className={`nav ${visible ? "fadeIn" : "fadeOut"}`}>
-      <img className="logodw" src={logodw} alt="Logodw" />
-      <ul className={active}>
-        <li className="nav__item nav__link" onClick={() => scrollToSection("services")}>
-          Services
-        </li>
-        <li className="nav__item nav__link" onClick={() => scrollToSection("Technology")}>
-          Technology
-        </li>
-        <li className="nav__item nav__link"  onClick={() => scrollToSection("About")}>
-          Who We Are
-        </li>
-        <li className="nav__item nav__link" onClick={() => scrollToSection("blogs")}>
-          Blogs
-        </li> 
-      </ul>
-      <div className="logo-container">
-        <img className="usa" src={usa} alt="Usa" />
-        <img className="linkedin" src={linkedin} alt="Logo"/>
-        <div className="contact">
-            CONTACT US
-          </div> 
+    <div className="container-fluid" style={{paddingBottom: '10vh'}}>
+      <div className="row">
+        <div className="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
+          <div className="title-product">
+            <div>The tech stack behind competitive products</div>
+          </div>
+          <div className="col-9 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
+            <div className="line-product1"></div>
+          </div>
+        </div>
       </div>
-      <div onClick={navToggle} className={icon}>
-        <div className="line1"></div>
-        <div className="line2"></div>
-        <div className="line3"></div>
+      <div className="container-fluid">
+        <div className="row">
+          <div className="col-3 col-sm-3 col-md-3 col-lg-3 col-xl-3 col-xxl-3">
+            <img src={css} alt="css" className="css-img " />
+          </div>
+          <div className="col-3 col-sm-3 col-md-3 col-lg-3 col-xl-3 col-xxl-3">
+            <img src={html} alt="html" className="html-img" />
+          </div>
+          <div className="col-3 col-sm-3 col-md-3 col-lg-3 col-xl-3 col-xxl-3">
+            <img src={react} alt="react" className="react-img" />
+          </div>
+          <div className="col-3 col-sm-3 col-md-3 col-lg-3 col-xl-3 col-xxl-3">
+            <img src={csharp} alt="c-sharp-img" className="csharp-img" />
+          </div>
+          <div className="col-3 col-sm-3 col-md-3 col-lg-3 col-xl-3 col-xxl-3">
+            <img src={angular} alt="angular" className="angular-img" />
+          </div>
+          <div className="col-3 col-sm-3 col-md-3 col-lg-3 col-xl-3 col-xxl-3">
+            <img src={dotnet} alt="dotnet" className="dotnet-img" />
+          </div>
+          <div className="col-3 col-sm-3 col-md-3 col-lg-3 col-xl-3 col-xxl-3">
+            <img src={aws} alt="aws" className="aws-img" />
+          </div>
+          <div className="col-3 col-sm-3 col-md-3 col-lg-3 col-xl-3 col-xxl-3">
+            <img src={nodejs} alt="nodejs" className="nodejs-img" />
+          </div>
+        </div>
       </div>
-    </nav>
+    </div>
   );
 }
-
-
-export default Navbar;
+export default Products;
